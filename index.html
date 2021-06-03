@@ -39,13 +39,13 @@
             </section>
             <!-- footer starts -->
             <section class="footer">
-                <div>
+                <div id="button1">
                     <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="spiderman">
                 </div>
-                <div>
+                <div id="button2">
                     <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="robin">
                 </div>
-                <div>
+                <div id="button3">
                     <img src="https://i.ibb.co/M18p91c/batman.webp" alt="batman">
                 </div>
             </section>
@@ -62,8 +62,37 @@
         <!-- lOADER ends -->
 
         <!-- MODAL-->
-        <section></section>
+        <section class="modal hidden" >
+            <div class="modal__content">
+                <img class="modal__content--close" src="https://img.icons8.com/windows/32/000000/macos-close.png"/>
+
+                <div class="modal__content--slider">
+                    <input type="radio" name="slider-1" id="radio-1" checked>
+                    <input type="radio" name="slider-1" id="radio-2">
+                    <input type="radio" name="slider-1" id="radio-3">
+
+                    <div class="cards">
+                        <label for="radio-1" id="card-1" class="card">
+                            <img src="https://i.pinimg.com/originals/a6/57/24/a6572497d91badc608615e399fdc3444.png" alt="">
+                        </label>
+                        <label for="radio-2" id="card-2" class="card">
+                            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46694fc5-76fc-4293-9b54-3038569ae18d/de1ddmr-fe1cfbf1-11bd-4a43-9fa6-29094ef976e6.png/v1/fill/w_501,h_545,strp/lego_spider_man__gr_verse__by_jeageruzumaki_de1ddmr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NDUiLCJwYXRoIjoiXC9mXC80NjY5NGZjNS03NmZjLTQyOTMtOWI1NC0zMDM4NTY5YWUxOGRcL2RlMWRkbXItZmUxY2ZiZjEtMTFiZC00YTQzLTlmYTYtMjkwOTRlZjk3NmU2LnBuZyIsIndpZHRoIjoiPD01MDEifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.AcRterl9A5yjbM5zbttem4hy9PsbfFh9Mio9TVuM47Q" alt="">
+                        </label>
+                        <label for="radio-3" id="card-3" class="card">
+                            <img src="https://i.ibb.co/M18p91c/batman.webp" alt="">
+                        </label>
+                    </div>
+
+                </div>
+
+                <button class="want">I want it!</button>
+            </div>
+        </section>
         <!-- MODAL ends-->
     </div>
+
+    <!-- script starts -->
+    <script src="./js/main.js"></script>
+    <!-- script ends -->
 </body>
 </html>
